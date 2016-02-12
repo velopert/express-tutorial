@@ -1,0 +1,14 @@
+<h1>Loop it!</h1>
+<ul>
+    <% for(var i=0; i<length; i++){ %>
+        <li>
+            <%= "LOOP" + i %>
+        </li>
+    <% } %>
+</ul>
+
+<% if(username){ %>
+    <h2>Welcome! <%= username %> (name: <%= name %>)</h2>
+<% }else{ %>
+    <h2> Please Login. </h2>
+<% } %>
